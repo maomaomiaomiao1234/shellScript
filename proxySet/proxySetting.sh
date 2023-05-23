@@ -7,9 +7,9 @@
 #!/bin/bash
 
 function proxyOn() {
-    export http_proxy="http://your_proxy_server:your_proxy_port"
-    export https_proxy="https://your_proxy_server:your_proxy_port"
-    export ftp_proxy="ftp://your_proxy_server:your_proxy_port"
+    export http_proxy="http://127.0.0.1:7890"
+    export https_proxy="http://127.0.0.1:7890" ##note:there is 'http://' NOT 'https://'
+    export ftp_proxy="ftp://127.0.0.1:7890" 
     echo "Proxy settings enabled."
 }
 
