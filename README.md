@@ -1,2 +1,2 @@
 # shellScript
-the shell script used at work
+the shell scripts used at work
