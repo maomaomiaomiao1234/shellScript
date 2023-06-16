@@ -1,0 +1,5 @@
+Host oracle #AAAAA为服务器主机名
+HostName 152.69.235.164 #写服务器ip地址
+User whang1234 #root为登陆用户名
+Port 22 #主机端口，默认是22
+IdentityFile C:\Users\FIREBAT\.ssh\id_rsa
