@@ -1,9 +1,9 @@
 :proxyOn
-set https_proxy="127.0.0.1:7890"
-set http_proxy="127.0.0.1:7890"
+$env:HTTP_PROXY="http://127.0.0.1:10809"
+$env:HTTPS_PROXY="http://127.0.0.1:10809"
 goto:eof
 
 :proxyOff
-set https_proxy=
-set http_proxy=
+$env:HTTP_PROXY=
+$env:HTTPS_PROXY=
 goto:eof
